@@ -11,7 +11,7 @@ public class LightBoard
   public LightBoard(int numRows, int numCols)
   {
     /* to be implemented in part (a) */
-    lights = new [numRows][numCols];
+    lights = new boolean [numRows][numCols];
     int w ;
     for (int i =0; i<numRows; i++){
       for (int k=0; k<numCols;k++){
