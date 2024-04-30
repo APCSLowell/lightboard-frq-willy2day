@@ -17,7 +17,7 @@ public class LightBoard
       for (int k=0; k<numCols;k++){
         w=(int) (Math.random()*100);
         if (w<40)
-          lights[i][k];
+          lights[i][k]=true;
         
       }
     }
